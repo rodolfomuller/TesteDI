@@ -1,0 +1,13 @@
+    namespace DI.Classes3;  
+    public class Classe3:IClasse3
+    {		
+        public string Metodo1(){
+           return   "";
+        }
+    }
+
+    public interface IClasse3
+    {        
+        string Metodo1();
+    }
+    

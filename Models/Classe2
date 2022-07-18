@@ -1,0 +1,13 @@
+using DI.Classes3;
+
+    public class Classe2
+    {
+        private readonly IClasse3 classe3;
+
+        public Classe2(IClasse3 classe3){
+            this.classe3 = classe3;
+        }
+        public string Metodo(){
+            return this.classe3.Metodo1();
+        }
+    }
